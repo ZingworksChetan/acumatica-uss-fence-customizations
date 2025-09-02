@@ -15,7 +15,8 @@ $zipFilePath = [System.IO.Path]::Combine("build", "$versionName.zip")
 $packageName = $versionName
 $serverUrl = $env:AC_BASE_URL
 $username = $env:AC_USERNAME
-$password = $env:AC_PASSWORD
+$password = "Admin@123"
+#$password = $env:AC_PASSWORD
 $projectDescription = $env:PROJECT_DESCRIPTION
 $projectLevel = $env:PROJECT_LEVEL
 
