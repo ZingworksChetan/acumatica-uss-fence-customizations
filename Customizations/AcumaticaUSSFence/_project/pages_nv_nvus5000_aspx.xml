@@ -1,0 +1,12 @@
+﻿<Page path="~/pages/nv/nvus5000.aspx" pageSource="vVZLc+JGED5vqvIfVEr5liC8leTgAlewsL0kNkshwLlRg9SGiUcz2tHIhj3kt6d7BiHxcmEnWQ6UNOrp7q8fX3fr7DdvwObg3TE5L/Ch7Yc/+N49yw1o+nDDBZ79HVQneXCjdNoFw7hopPbY9zqFUdfPIM0D11Bkbd/oAnxvwgRPmIEhfCkgN23/kYkcz0OVrDX3J+Pol2az2WB5tmzEue/15AI0N3nbJ2vTUsD3RtzQjbE09JBYv33v7PL771qIwjk4WmXgTbg2BRMDZhYnuE4KUAXavwiVNIjB63XbfozP5+SpPRoIFsMnJRLQ9DFbdCPf04VkiCkC/YyKUM2HVra8GPzZZYZFqtAxWE1JvhHNnSh6mPMZgRnZMD3whFw9bzbPfG+gecr0asLhpe1jkKyThKvPUgpY52EsuYEkwj8yzWPIGwOtjDIo1LjVLFs0SCqKeijImSAMmsUGhVA253Lue9bbYMddCmVQC8Tlgbg8YgSPh+XG94a7UfHw5wJD0SdcVlH1er4Xn8qlMoCRWVG8vv7EZQLLC++cKmIrbnTnHtIZ6Cpszjj9+spATyY8ZkaRgKtDqsF8/9gbsVmP7FjdNrMfWiNIM4G1bN/Wmb5jK1WYYSFgF4GNkFYi4l/R7XsfG2wGIl97HBEgpk2oRJHKdRkEdc2IBkY8heuEu7hD8lkOMeT04WC8bjiIpO3XpUKVptyEC+xtyNc9eVllfWPg20CKYJ6ia9iOT2tEV5rJeNHr7uE5UAA1iNW1HYCum4JvBUdAjFWzxjICjayl9Crch/Mqmq2LhwCVGSsNunIM6vW4ligb6pQ+Jn77eLyRb4/T263miVUxx4c9rJ+Azxf4/nOzmS13WvRgExOajhDqBRkaqanMoj2KgOl4sTlK/ipyQ0TuckZD5yBXPHFpGcYxaU9+KXAq4flKxgOVIycqWU6o7U6vEQaFV2m87rgkZJm75l69TpYJDskxCnE5uoNnrKh60VDs7Kl1+w9YEaljoj/rxA2vH+1Tf6a3CW0IsdKIzemyjDpUL9uUtFeYLkrLJQ1VxyCllb2s2Wj3CyE2HFinlOratWQ4t5KNVHDEdM2exfIKX21kdnVbn4iedhrbog+24Xs7v5br2/zAp2ocUTKcnLMVLiB+6lAMXG3UvHTAKN8jWJqO4HMshRAbpxzO+Ea3r1RV87/aBghOdaFmbZxrHOBXXAhsCOrK95mtJeawnVpiT5e3uTpJvD8ZjsJVLHD9m3NatqZT+3q6hhD7XaXESa9dsMkbZ7RoHirfSsn0qhPHqpBmOGVxbKj3TnSEMoJoflczWrtOB2DvhaANf0S2GLAVDhzxP2XTVc1m2cMlWiVvcbMnnxUuk2+oh1pIptOtOfbe+qhG+3s19DG01DluA/o3WuyRXQL+I13XMnmDJpfOiOF4wZ2bpttburQLeVzJt4KKD+3r9jBabxS1cdWi2Urzwy4IjEsaQg84ttVLjagdLd9zWQ79jzRDg9pGQiYObCP/AA==">
+    <PXGridLevel DataMember="Records" ParentId="phG_grid_Levels#0" TypeFullName="PX.Web.UI.PXGridLevel">
+        <Children Key="Columns">
+            <AddItem>
+                <PXGridColumn TypeFullName="PX.Web.UI.PXGridColumn">
+                    <Prop Key="DataField" Value="UsrNVRTRentalStatus" />
+                    <Prop Key="Width" Value="70" />
+                </PXGridColumn>
+            </AddItem>
+        </Children>
+    </PXGridLevel>
+</Page>

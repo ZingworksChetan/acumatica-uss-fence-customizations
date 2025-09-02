@@ -1,0 +1,17 @@
+name: Build and deploy to QA/STG
+
+on:
+  push:
+    tags:
+      - "v*.*.*.24R1"     # eg. v1.25.16.24R1
+      - "v*.*.*.*.24R1"   # eg. v1.25.16.1.24R1
+      - "v*.*.*.25R1"     # eg. v1.25.16.25R1 
+      - "v*.*.*.*.25R1"   # eg. v1.25.16.1.25R1
+
+jobs: 
+    cicd:
+      uses: USSBI/acumatica-workflow-template/.github/workflows/dotnet_cicd.yml@main
+      with:
+        tag_name: "${{ github.ref_name }}"
+        build_no: "${{ github.run_number }}"
+      secrets: inherit

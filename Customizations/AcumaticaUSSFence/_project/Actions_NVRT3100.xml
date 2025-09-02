@@ -1,0 +1,63 @@
+﻿<Actions ScreenID="NVRT3100">
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="Remove Hold" ActionType="W" After="Last" PlacementInCategory="0" BatchMode="False" MenuFolderType="ProcessingID" WindowMode="S" MapEnableRights="2" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="Hold" ActionType="W" After="Remove Hold" PlacementInCategory="0" BatchMode="False" MenuFolderType="ProcessingID" WindowMode="S" MapEnableRights="2" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="ApproveChangeOrder" ActionType="G" After="Hold" PlacementInCategory="0" DisableCondition="68ded7bd-9688-3446-9ad6-4c3f6404b635" BatchMode="False" MenuFolderType="ApprovalID" WindowMode="S" HideCondition="68ded7bd-9688-3446-9ad6-4c3f6404b635" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="CompleteChangeOrder" ActionType="G" After="ApproveChangeOrder" PlacementInCategory="0" DisableCondition="e0073005-5f19-2b14-43fd-e140709ca1ed" BatchMode="False" MenuFolderType="ProcessingID" WindowMode="S" HideCondition="e0073005-5f19-2b14-43fd-e140709ca1ed" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="CancelChangeOrder" ActionType="G" After="CompleteChangeOrder" PlacementInCategory="0" DisableCondition="aed0fd7d-06eb-0a75-a655-8223b608023b" BatchMode="False" MenuFolderType="ProcessingID" WindowMode="S" HideCondition="aed0fd7d-06eb-0a75-a655-8223b608023b" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="Release" ActionType="G" After="CancelChangeOrder" PlacementInCategory="0" DisableCondition="e5b31f4a-316e-f2bc-7d2e-37a1c99ab73f" BatchMode="False" MenuFolderType="ProcessingID" WindowMode="S" HideCondition="e5b31f4a-316e-f2bc-7d2e-37a1c99ab73f" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" ActionName="ReOpenChangeOrder" ActionType="G" After="Release" PlacementInCategory="0" DisableCondition="bb36aa43-fc7e-b086-84a4-6b53e9a4a270" BatchMode="False" MenuFolderType="ProcessingID" WindowMode="S" HideCondition="bb36aa43-fc7e-b086-84a4-6b53e9a4a270" ExposedToMobile="False">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" ActionName="ApproveDis" ActionType="G" PlacementInCategory="0" DisplayName="Approve Discount" IsTopLevel="True" WindowMode="S" IsLockedOnToolbar="False" Connotation="Success">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Action IsActive="True" ActionName="Reject" ActionType="G" PlacementInCategory="0" DisplayName="Reject" IsTopLevel="True" WindowMode="S" IsLockedOnToolbar="False" Connotation="Danger">
+        <StateActionFields />
+        <StateActionParams />
+        <NextActions />
+        <ActionSequenceFormFieldValues />
+    </Action>
+    <Category IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" DisplayName="Actions" CategoryName="Action" Placement="0" LineNbr="0" />
+    <Category IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" DisplayName="Reports" CategoryName="Report" Placement="0" After="Action" LineNbr="1" />
+    <Category IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" DisplayName="Processing" CategoryName="ProcessingID" Placement="0" After="Report" LineNbr="2" />
+    <Category IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" DisplayName="Approval" CategoryName="ApprovalID" Placement="0" After="ProcessingID" LineNbr="3" />
+    <Category IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" DisplayName="Other" CategoryName="OtherID" Placement="0" After="ApprovalID" LineNbr="4" />
+    <Category IsActive="True" IsSystem="True" IsCustomized="False" IsCustomizedRecursive="False" DisplayName="Inquiries" CategoryName="Inquiry" Placement="0" After="OtherID" LineNbr="5" />
+    <Category IsActive="True" DisplayName="Rental Actions" CategoryName="Rental Actions" Placement="0" After="Inquiry" LineNbr="6" />
+</Actions>

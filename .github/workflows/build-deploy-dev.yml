@@ -1,0 +1,61 @@
+﻿name: deploy to Dev
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - "release/v*.*.*.24R1"
+      - "release/v*.*.*.25R1"
+
+jobs:
+    cicd:
+      if: github.event.pull_request.merged == true
+      uses: USSBI/acumatica-workflow-template/.github/workflows/dotnet_dev.yml@main
+      with:
+        build_no: "${{ github.run_number }}"
+        branch: "${{ github.event.pull_request.base.ref }}"
+      secrets: inherit
+
+
+# jobs:
+#    cicd-check:
+#       uses: USSBI/acumatica-workflow-template/.github/workflows/dotnet_dev.yml@main
+#       with:
+#         tag_name: "${{ github.ref_name }}"
+#         build_no: "${{ github.run_number }}"
+#       secrets: inherit
+
+
+# name: deploy to Dev
+
+# on:
+#   push:
+#     tags:
+#       - "dev24R1v*"
+#       - "dev25R1v*"
+
+# jobs:
+#   cicd-check:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
+#         with:
+#           fetch-depth: 0   required to check commit history
+
+#       - name: Validate tag is from release/v*
+#         run: |
+#           BRANCHES=$(git branch -r --contains $GITHUB_SHA | grep 'origin/release/v' || true)
+#           if [ -z "$BRANCHES" ]; then
+#             echo "Tag not created from release/v* branch"
+#             exit 1
+#           fi
+#           echo "Tag is from: $BRANCHES"
+
+#   run-cicd:
+#     needs: cicd-check
+#     uses: USSBI/acumatica-workflow-template/.github/workflows/dotnet_dev.yml@main
+#     with:
+#       tag_name: "${{ github.ref_name }}"
+#       build_no: "${{ github.run_number }}"
+#     secrets: inherit

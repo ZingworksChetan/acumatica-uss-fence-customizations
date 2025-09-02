@@ -1,0 +1,5 @@
+﻿<Table TableName="ARInvoice">
+    <Column TableName="ARInvoice" ColumnName="UsrFenceInvoiceReview" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="ARInvoice" ColumnName="UsrFenceRejectReasonCode" ColumnType="int" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+    <Column TableName="ARInvoice" ColumnName="UsrReleaseDate" ColumnType="date" AllowNull="True" DecimalPrecision="0" DecimalLength="0" IsNewColumn="True" IsUnicode="True" />
+</Table>

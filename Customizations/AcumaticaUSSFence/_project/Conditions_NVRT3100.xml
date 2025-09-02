@@ -1,0 +1,7 @@
+﻿<Conditions screen="NVRT3100">
+    <AutomationScreenCondition ConditionID="78cd1982-f286-4a39-813d-2acd0a06399e" ScreenID="NVRT3100" ConditionName="RequireApproval" Order="1" AppendSystemCondition="False" JoinMethod="AND" InvertCondition="False">
+        <FilterRow LineNbr="1" CloseBrackets="1" OpenBrackets="2" FieldName="OrderTotal" Condition="3" Operator="0" Value2="" Value="25000" IsActive="True" IsFromScheme="True" />
+        <FilterRow LineNbr="2" CloseBrackets="2" OpenBrackets="1" FieldName="MaxDiscPct" Condition="3" Operator="1" Value2="" Value="40.000000" IsActive="True" IsFromScheme="False" />
+        <FilterRow LineNbr="3" CloseBrackets="1" OpenBrackets="1" FieldName="MaxDiscPct" Condition="3" Operator="0" Value2="" Value="50.000000" IsActive="True" IsFromScheme="False" />
+    </AutomationScreenCondition>
+</Conditions>

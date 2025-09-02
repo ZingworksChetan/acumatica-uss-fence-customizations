@@ -1,0 +1,8 @@
+.vs/
+AcumaticaUSSFence/bin/
+AcumaticaUSSFence/obj/
+# *.csproj.user
+build.props
+CustomizationPackageTools/
+**/obj/
+.vscode

@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcumaticaUSSFence", "AcumaticaUSSFence\AcumaticaUSSFence.csproj", "{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "USSFoxtrotZW", "http://localhost/USSFoxtrotZW", "{9305102A-16C4-33B5-870C-D40990AD3F96}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/USSFoxtrotZW"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Program Files\Acumatica ERP\USSFoxtrotZW\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\USSFoxtrotZW\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/USSFoxtrotZW"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Program Files\Acumatica ERP\USSFoxtrotZW\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\USSFoxtrotZW\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\Program Files\Acumatica ERP\USSFoxtrotZW\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9305102A-16C4-33B5-870C-D40990AD3F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9305102A-16C4-33B5-870C-D40990AD3F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F771A71C-B715-4887-9B52-C41EC38BE2E3}
+	EndGlobalSection
+EndGlobal
