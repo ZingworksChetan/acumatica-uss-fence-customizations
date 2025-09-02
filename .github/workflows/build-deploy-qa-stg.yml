@@ -10,7 +10,7 @@ on:
 
 jobs: 
     cicd:
-      uses: USSBI/acumatica-workflow-template/.github/workflows/dotnet_cicd.yml@main
+      uses: ZingworksChetan/acumatica-workflow-template/.github/workflows/dotnet_cicd.yml@main
       with:
         tag_name: "${{ github.ref_name }}"
         build_no: "${{ github.run_number }}"

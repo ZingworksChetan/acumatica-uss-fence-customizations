@@ -10,7 +10,7 @@ on:
 jobs:
     cicd:
       if: github.event.pull_request.merged == true
-      uses: USSBI/acumatica-workflow-template/.github/workflows/dotnet_dev.yml@main
+      uses: ZingworksChetan/acumatica-workflow-template/.github/workflows/dotnet_dev.yml@main
       with:
         build_no: "${{ github.run_number }}"
         branch: "${{ github.event.pull_request.base.ref }}"
